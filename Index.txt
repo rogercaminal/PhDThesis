@@ -1,0 +1,126 @@
+TITLE: Search for super-symmetric compressed scenarios in events with one energetic jet and large missing transverse momentum in proton-proton collisions at \sqrt{s}=8TeV with the ATLAS detector.
+
+=======================================================================================
+
+
++ Introduction
+
+
++ The Standard Model.
+
+    + Introduction to the Standard Model.
+        - Symmetries
+        - Lagrangian
+        - Particles
+        - Hadron-hadron collisions: proton structure, factorization
+
+    + Monte Carlo simulation
+        - Event generators
+        - Hadronization
+        - Underlying event
+        - Used Monte Carlo generators
+            - Sherpa
+            - MadGraph
+            - MC@NLO
+            - Pythia
+
+
++ Beyond the Standard Model.
+
+    + Motivation to go beyond the Standard Model
+        - Hierarchy problem
+        - Dark Matter
+        - (Gravity)
+   
+    + Introduction to Super Symmetry (SUSY)
+        - Supersymmetric lagrangians
+        - SUSY breaking terms
+        - Origins of the SUSY breaking
+        - SUSY models: MSSM, pMSSM, GMSB...
+
+    + ADD large extra dimensions
+
+    + WIMPs
+
+
++ The LHC and the ATLAS detector
+
+    + Large Hadron collider
+
+    + The ATLAS detector
+        - Inner detector
+        - Calorimeters
+        - Muon spectrometer
+        - Trigger system
+        - Luminosity measurement
+
++ Reconstruction of physics objects
+    - Electrons
+    - Muons
+    - Jets: jet calibration, pileup corrections
+    - Missing transverse momentum
+
+
++ The monojet analysis
+
+    + Data sample
+
+    + Monte Carlo simulated samples (background)
+
+    + Object definition
+
+    + Event selection
+
+    + Estimation of the bkg contribution
+        - Control  and signal regions definition
+        - Multijet estimation: The jet smearing method.
+        - Fitting strategy: In appendix together with exclusion fit???
+
+    + Results
+
+    + Model independent limits
+
++ Interpretations
+    
+    + stop to charm neutralino
+        - Charm-tagged: (In appendix)
+        - Signal uncertainties
+        - Exclusion limits
+
+    + sbottom to bottom neutralino
+        - Signal uncertainties
+        - Exclusion limits
+
+    + four body decay
+        - Signal uncertainties
+        - Exclusion limits
+
+    + squark-neutralino
+        - Signal uncertainties
+        - Exclusion limits
+
+    + squark-squark
+
+    + neutralino-chargino
+
+    + gravitino
+        - Signal uncertainties
+        - Exclusion limits
+
+    + ADD
+        - Signal uncertainties
+        - Exclusion limits
+
+    + WIMPs ???
+
++ Conclusions
+
++ Appendices
+
+    + Charm-tagged
+
+    + Plots and tables
+
+    + Top control region
+
+    + Systematic uncertainty studies. QED correction, etc.

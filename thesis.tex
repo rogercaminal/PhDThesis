@@ -1,0 +1,169 @@
+\documentclass[a4paper,11pt,twoside]{report}
+\special{papersize=210mm,297mm}
+
+\usepackage{atlasphysics}
+\usepackage{datetime}
+\usepackage{rotating}  % do rotate figures
+\usepackage{booktabs}  % ??
+\usepackage[printonlyused]{acronym}   % nice Acronyms, can be listed in table at  end
+\usepackage{varioref}
+\usepackage{units}     % nice 7 TeV as $\unit[7]{TeV}$
+\usepackage{graphicx}  % to include figures easily
+\usepackage{graphics}  % std
+\usepackage{subfig}    % for subfigures with subfloat
+\usepackage{fancyhdr}  % der Name ist Programm
+\lhead[\leftmark]{}
+\rhead[]{\rightmark}
+\usepackage[breaklinks=true]{hyperref}  % working URLs
+\usepackage{breakurl}   % break URLs at the end of the line
+\usepackage{verbatim}   % for verbatim stuff
+\usepackage{amssymb}    % for fancy equations
+\usepackage{amsmath}    % for fancy equations
+\usepackage{tabularx}   % table on whole page, and rotated
+\usepackage[usenames,dvipsnames]{color} % ?
+\usepackage{latexsym}   % ?
+%\usepackage{sparticles} % for feynman graphs
+\usepackage{feynmf}     % for feynman graphs
+\usepackage{srcltx}     % in .dvi file Ctrl+click + .bashrc: EDITOR=vim => :D
+\usepackage{multirow}
+\usepackage{textcomp} % Estel:)
+\usepackage{lineno}
+\usepackage{lscape}
+\usepackage{longtable}
+\setcounter{secnumdepth}{3}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%\include{Commands/commands}
+
+\DeclareGraphicsExtensions{.eps,.pdf,.png,.jpg,.jpeg}
+
+%\usepackage[top=3.5cm, bottom=4.1cm, left=3cm, right=2.5cm]{geometry}
+\pagestyle{headings}
+%\pagestyle{fancy}
+
+%--- Syllabes
+\input{hyphenation}
+
+\begin{document}
+
+%--- Line numbers
+%\linenumbers
+
+%--- Start roman numbers
+\pagenumbering{roman}
+\setcounter{page}{0}
+
+%--- Information for the pdf composition
+\hypersetup{
+pdfauthor = {Roger Caminal Armadans},
+pdftitle = {PhD Thesis }}
+
+\title{PhD Thesis: \\ Search for new physics in compressed scenarios with the ATLAS experiment at the LHC}
+\author{Roger Caminal Armadans}
+\date{\today \\ \currenttime}
+
+%--- Start including chapters
+\include{Title/title}
+\newpage
+$\,$
+\clearpage
+\newpage
+
+\include{Dedication/Dedication}
+\cleardoublepage
+
+%%%%%%\include{Abstract/abstract}
+%%%%%%\newpage
+%%%%%%$\,$
+%%%%%%\clearpage
+%%%%%%\newpage
+
+%--- Add table of contents, list of figures and list of tables.
+\tableofcontents
+\cleardoublepage   %%% makes sure every chapter starts on an odd page
+%\listoffigures
+%\cleardoublepage
+%\listoftables
+%\cleardoublepage
+
+%--- Start arabic numbers
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\acresetall %resets all acronyms to not used. Useful after the abstract to redefine all acronyms in the introduction.
+
+\include{Introduction/introduction}
+\cleardoublepage
+
+\include{StandardModel/StandardModel}
+\cleardoublepage
+
+\include{BeyondSM/BeyondSM}
+\cleardoublepage
+
+\include{StatisticalModel/StatisticalModel}
+\cleardoublepage
+
+\include{ATLASdetector/ATLASdetector}
+\cleardoublepage
+
+\include{ObjectReconstruction/ObjectReconstruction}
+\cleardoublepage
+
+\include{MonojetAnalysis/MonojetAnalysis}
+\cleardoublepage
+
+\include{Interpretations/Interpretations}
+\cleardoublepage
+
+\include{Conclusions/Conclusions}
+\cleardoublepage
+
+%--- Add appendices
+\appendix
+
+\include{Appendix_DetectorWork/Appendix_DetectorWork}
+\cleardoublepage
+
+\include{Appendix_BosonPtReweight/Appendix_BosonPtReweight}
+\cleardoublepage
+
+\include{Appendix_JetSmearingMethod/Appendix_JetSmearingMethod}
+\cleardoublepage
+
+\include{Appendix_ClosureTestZnunu/Appendix_ClosureTestZnunu}
+\cleardoublepage
+
+\include{Appendix_FitResults/Appendix_FitResults}
+\cleardoublepage
+
+\include{Appendix_FluctuationM6/Appendix_FluctuationM6}
+\cleardoublepage
+
+\include{Appendix_PlotsSR/Appendix_PlotsSR}
+\cleardoublepage
+
+\include{Appendix_CharmTagged/Appendix_CharmTagged}
+\cleardoublepage
+
+\include{Appendix_SensitivityStudies/Appendix_SensitivityStudies}
+\cleardoublepage
+
+%--- Add chapters with no number
+
+%\addcontentsline{toc}{chapter}{Acronyms}
+%\include{acronyms}
+%
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{h-physrev-vv}
+\bibliography{Bibliography/myBib}
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\include{Acknowledgement/acknowledgement}
+\cleardoublepage
+
+
+
+
+\end{document}
