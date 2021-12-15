@@ -2,11 +2,29 @@
 
 PhD dissertation, Roger Caminal Armadans, January 2015. Defended on February 23, 2015
 
-CERN Document Server: https://cds.cern.ch/record/1995421?ln=en
+**CERN Document Server**: https://cds.cern.ch/record/1995421?ln=en
 
-License: BSD 3 clause
+**License**: BSD 3 clause
 
-Contact: Roger Caminal Armadans (roger.caminal@gmail.com)
+**Contact**: Roger Caminal Armadans (roger.caminal@gmail.com)
+
+The results presented in this thesis has led to the publication by the _ATLAS Collaboration_ shown below. Please, cite using the following BibTex entry:
+
+```
+@article{2014,
+   title={Search for pair-produced third-generation squarks decaying via charm quarks or in compressed supersymmetric scenarios in pp collisions at $\sqrt{s} = 8$~ TeV with the ATLAS detector},
+   volume={90},
+   ISSN={1550-2368},
+   url={http://dx.doi.org/10.1103/PhysRevD.90.052008},
+   DOI={10.1103/physrevd.90.052008},
+   number={5},
+   journal={Physical Review D},
+   publisher={American Physical Society (APS)},
+   author={Aad, G. and Abbott, B. and Abdallah, J. and Abdel Khalek, S. and Abdinov, O. and Aben, R. and Abi, B. and Abolins, M. and AbouZeid, O. S. and Abramowicz, H. and et al.},
+   year={2014},
+   month={Sep}
+}
+```
 
 ---
 
