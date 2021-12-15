@@ -8,7 +8,7 @@ PhD dissertation, Roger Caminal Armadans, January 2015. Defended on February 23,
 
 **Contact**: Roger Caminal Armadans (roger.caminal@gmail.com)
 
-The results presented in this thesis has led to the publication by the _ATLAS Collaboration_ shown below. Please, cite using the following BibTex entry:
+The results presented in this thesis has led to a publication by the _ATLAS Collaboration_. Please, cite it using the following BibTex entry:
 
 ```
 @article{2014,
